@@ -36,7 +36,7 @@ These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx4096m"
 * MOTD "RAD2 - 1.7  Server Powered by Docker"
-* LEVEL 
+* LEVEL world
 
 ### Adding Minecraft Operators
 
