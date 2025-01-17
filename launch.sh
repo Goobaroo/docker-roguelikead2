@@ -14,8 +14,8 @@ else
 exit 99
 fi
 
-if ! [[ -f "RAD2-Serverpack-1.12.zip" ]]; then
-  curl -Lo 'RAD2-Serverpack-1.12.zip' 'https://edge.forgecdn.net/files/5631/601/RAD2-Serverpack-1.12.zip' && unzip -u -o 'RAD2-Serverpack-1.12.zip' -d /data
+if ! [[ -f "RAD2-Serverpack-1.13a.zip" ]]; then
+  curl -Lo 'RAD2-Serverpack-1.13a.zip' 'https://edge.forgecdn.net/files/6095/440/RAD2-Serverpack-1.13a.zip' && unzip -u -o 'RAD2-Serverpack-1.13a.zip' -d /data
   DIR_TEST=$(find . -type d -maxdepth 1 | tail -1 | sed 's/^.\{2\}//g')
   if [[ $(find . -type d -maxdepth 1 | wc -l) -gt 1 ]]; then
     cd "${DIR_TEST}"
