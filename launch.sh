@@ -4,7 +4,7 @@ set -x
 
 if [ -w "/data" ]; then
 
-FORGE_VERSION=1.16.5-36.2.33
+FORGE_VERSION=1.16.5-36.2.39
 cd /data
 
 if ! [[ "$EULA" = "false" ]]; then
@@ -14,8 +14,8 @@ else
 exit 99
 fi
 
-if ! [[ -f "RAD2-Serverpack-0.95a.zip" ]]; then
-  curl -Lo 'RAD2-Serverpack-0.95a.zip' 'https://edge.forgecdn.net/files/4258/4/RAD2-Serverpack-0.95a.zip' && unzip -u -o 'RAD2-Serverpack-0.95a.zip' -d /data
+if ! [[ -f "RAD2-Serverpack-1.13a.zip" ]]; then
+  curl -Lo 'RAD2-Serverpack-1.13a.zip' 'https://edge.forgecdn.net/files/6095/440/RAD2-Serverpack-1.13a.zip' && unzip -u -o 'RAD2-Serverpack-1.13a.zip' -d /data
   DIR_TEST=$(find . -type d -maxdepth 1 | tail -1 | sed 's/^.\{2\}//g')
   if [[ $(find . -type d -maxdepth 1 | wc -l) -gt 1 ]]; then
     cd "${DIR_TEST}"
