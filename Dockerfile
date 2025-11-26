@@ -2,9 +2,9 @@
 
 FROM openjdk:8u312-jre
 
-LABEL version="1.14"
+LABEL version="1.15"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="RAD2 - 1.14 "
+LABEL homepage.name="RAD2 - 1.15 "
 LABEL homepage.icon="https://media.forgecdn.net/avatars/485/618/637786105420601729.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Roguelike-Adventures-and-Dungeons-2:25565
