@@ -1,4 +1,4 @@
-# [RAD2 - 1.16 ](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2) on Curseforge
+# [RAD2 - 1.17 ](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2) on Curseforge
 
 <!-- toc -->
 
@@ -18,7 +18,7 @@
 
 This container is built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
 
-The docker on first run will download the same version as tagged of `RAD2 - 1.16 ` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of `RAD2 - 1.17 ` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will simply start the server.
 
@@ -37,7 +37,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx4096m"
-* MOTD "RAD2 - 1.16  Server Powered by Docker"
+* MOTD "RAD2 - 1.17  Server Powered by Docker"
 * LEVEL world
 
 ### Adding Minecraft Operators
